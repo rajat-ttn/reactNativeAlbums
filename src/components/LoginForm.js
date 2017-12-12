@@ -47,10 +47,10 @@ class LoginForm extends Component{
             password:''
         });
     }
-    onLoginFail(){
+    onLoginFail(e){
         this.setState({
             loading:false,
-            errorMsg: 'Login Failed!'
+            errorMsg: e.message
         });
     }
     render(){

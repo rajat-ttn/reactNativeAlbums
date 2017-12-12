@@ -28,24 +28,25 @@ const Button = (props) => {
 }
 
 const styles = {
-    buttonStyle : {
-        alignSelf:'stretch',
-        flex:1,
-        borderWidth:1,
-        borderRadius:5,
-        borderColor:'#007aff',
-        alignItems:'center',
-        // justifyContent: 'center',
-        // paddingTop: 10,
-        // paddingBottom: 10
-    },
-    textStyle:{
-        fontWeight: '600',
-        fontSize: 15,
+    textStyle: {
         alignSelf: 'center',
-        paddingTop:10,
-        paddingBottom:10
+        color: '#007aff',
+        fontSize: 16,
+        fontWeight: '600',
+        paddingTop: 10,
+        paddingBottom: 10
+    },
+    buttonStyle: {
+        flex: 1,
+        alignSelf: 'stretch',
+        borderRadius: 5,
+        borderWidth: 1,
+        borderColor: '#007aff',
+        marginLeft: 5,
+        marginRight: 5,
+        backgroundColor:'orange'
     }
 };
+
 
 export default Button;
